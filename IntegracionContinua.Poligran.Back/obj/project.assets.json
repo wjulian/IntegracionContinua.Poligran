@@ -460,32 +460,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wjuli\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\EDUARDO\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\src\\Poligran\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran.Back\\IntegracionContinua.Poligran.Back.csproj",
+      "projectUniqueName": "C:\\Users\\EDUARDO\\source\\repos\\wjulian\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran.Back\\IntegracionContinua.Poligran.Back.csproj",
       "projectName": "IntegracionContinua.Poligran.Back",
-      "projectPath": "D:\\src\\Poligran\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran.Back\\IntegracionContinua.Poligran.Back.csproj",
-      "packagesPath": "C:\\Users\\wjuli\\.nuget\\packages\\",
-      "outputPath": "D:\\src\\Poligran\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran.Back\\obj\\",
+      "projectPath": "C:\\Users\\EDUARDO\\source\\repos\\wjulian\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran.Back\\IntegracionContinua.Poligran.Back.csproj",
+      "packagesPath": "C:\\Users\\EDUARDO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EDUARDO\\source\\repos\\wjulian\\IntegracionContinua.Poligran\\IntegracionContinua.Poligran.Back\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wjuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\EDUARDO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\src\\Microservices.Net\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -532,7 +532,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

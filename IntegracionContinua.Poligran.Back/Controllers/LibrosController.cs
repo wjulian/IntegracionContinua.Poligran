@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 
 namespace IntegracionContinua.Poligran.Back.Controllers
 {
+    [EnableCors("_myAllowSpecificOrigins")]
     [ApiController]
     [Route("[controller]")]
     public class LibrosController : Controller

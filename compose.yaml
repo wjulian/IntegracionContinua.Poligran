@@ -1,0 +1,20 @@
+# Define los servicios (contenedores) que vamos a usar en este grupo,
+# Aquí se ven definidos dos: uno para backend y otro para frontend.
+# El contexto le indica a docker donde buscar el archivo Dockerfile,
+# que contiene las instrucciones para levantar el contenedor.
+# Cada contenedor tiene mapeado un puerto de salida para que desde 
+# nuestro PC podamos acceder al contenedor.
+services:
+  backend:
+    build:
+      context: ./IntegracionContinua.Poligran.Back/
+    ports:
+      - 5187:80
+
+  frontend:
+    build:
+      context: ./integracion_continua_poligran_front/
+    ports:
+      - 3000:3000
+
+

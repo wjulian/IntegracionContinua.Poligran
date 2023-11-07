@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import './ListaLibros.css';
-import Tarjeta from '../Tarjeta/Tarjeta';
 import axios from 'axios';
 import ILibro from '../../models/Libro';
 

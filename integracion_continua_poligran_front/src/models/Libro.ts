@@ -3,4 +3,5 @@ export default interface ILibro {
     titulo?: string;
     autor?: string;
     anioPublicacion?: number;
+    imagen?: string;
 }

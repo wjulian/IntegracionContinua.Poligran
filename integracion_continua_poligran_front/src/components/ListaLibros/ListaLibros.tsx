@@ -34,12 +34,13 @@ const ListaLibros: FC<ListaLibrosProps> = () => {
   return (
     <div className="ListaLibros">
       <ul className="posts">
-    {libros.map((libro) => (
-     <li key={libro.id}>
-      <h3>{libro.titulo}</h3>
-      <p>{libro.autor}</p>
-      <p>{libro.anioPublicacion}</p>
-     </li>
+      {libros.map((libro) => (
+          <li key={libro.id}>
+            <img src={libro.imagen} alt="" />
+            <h3>{libro.titulo}</h3>
+            <p>{libro.autor}</p>
+            <p>{libro.anioPublicacion}</p>
+          </li>
    ))}
   </ul>
   {error && <p className="error">{error}</p>}

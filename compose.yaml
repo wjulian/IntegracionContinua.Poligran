@@ -17,4 +17,9 @@ services:
     ports:
       - 3000:3000
 
+  jenkins:
+    build:
+      context: .
+    ports:
+      - 8080:8080  
 

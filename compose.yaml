@@ -3,23 +3,32 @@
 # El contexto le indica a docker donde buscar el archivo Dockerfile,
 # que contiene las instrucciones para levantar el contenedor.
 # Cada contenedor tiene mapeado un puerto de salida para que desde 
-# nuestro PC podamos acceder al contenedor.
+# nuestro PC podamos acceder al contenedor. 
 services:
   backend:
     build:
       context: ./IntegracionContinua.Poligran.Back/
+    networks:
+     - red1
     ports:
       - 5187:80
 
   frontend:
     build:
       context: ./integracion_continua_poligran_front/
+    networks:
+     - red1
     ports:
       - 3000:3000
 
   jenkins:
     build:
       context: .
+    networks:
+     - red1
     ports:
-      - 8080:8080  
+      - 8080:8080
 
+networks:
+  red1:
+    driver: bridge

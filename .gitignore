@@ -2,3 +2,5 @@ IntegracionContinua.Poligran.Back/bin/*
 IntegracionContinua.Poligran.Back/obj/*
 IntegracionContinua.Poligran.Back/.vs*
 .vs/*
+IntegracionContinua.Poligran.Tests/bin/*
+IntegracionContinua.Poligran.Tests/obj/*
